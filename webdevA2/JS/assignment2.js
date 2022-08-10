@@ -33,7 +33,7 @@ ButtonLastChild = ButtonLast.children;
 const BookPages = ["Book_Img1.png", "Book_Img2.png", "Book_Img3.png", "Book_Img4.png"
                 , "Book_Img5.png", "Book_Img6.png", "Book_Img7.png"]; // images
 
-var MainImage = document.getElementById("BookAndPhone"); //Book And Phone Image
+var MainImage = document.getElementById("Book"); //Book And Phone Image
 MainImage.src = "Img/" + BookPages[0]; 
 
 function MouseHover(obj){
@@ -400,8 +400,6 @@ function ButtonRelease(obj){
             BookFlip = 6;
             break;
     }
-
-    //document.querySelector("#BookAndPhone").style.transform = 'rotate(' + imgRotation + 'deg)'; //Rotates Phone Image
 
     if(CurrentlyFlipping == false){
         currTitle.style.display = "none";
