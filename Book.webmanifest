@@ -1,0 +1,15 @@
+{
+    "background_color": "gray",
+    "description": "A website that shows you the basics of Light Novels and differeneces between it and Novels",
+    "display": "fullscreen",
+    "icons": [
+      {
+        "src": "Img/BookAppImg.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      }
+    ],
+    "name": "What Are Web Novels?",
+    "short_name": "WN Learn",
+    "start_url": "/index.html"
+  }
